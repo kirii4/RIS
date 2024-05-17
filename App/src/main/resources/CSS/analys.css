@@ -1,0 +1,147 @@
+.analysys-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.tags {
+  gap: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.tag {
+  margin: 10px 0 10px 0;
+  gap: 10px;
+  font-size: 16px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 72px;
+  border: 1px solid rgb(232, 232, 232);
+  border-radius: 55px;
+}
+
+.tag:hover {
+  color: rgb(233, 55, 64);
+  border: 1px solid rgb(233, 55, 64);
+  cursor: pointer;
+}
+
+.icon {
+  padding: 4px;
+  border-radius: 55px;
+  background: rgb(253, 235, 236);
+}
+
+.analysys-section__title {
+  margin: 25px 0 25px 0;
+  color: rgb(28, 28, 28);
+  font-family: Plus Jakarta Sans;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0;
+  text-align: left;
+}
+
+.last-analisys-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.last-analisys-section__buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 15px;
+}
+
+.items {
+  margin: 25px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 15px;
+  grid-row-gap: 25px;
+}
+
+.item_card {
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid rgb(232, 232, 232);
+  border-radius: 8px;
+  background: rgb(255, 255, 255);
+}
+
+.img {
+  border-radius: 8px;
+}
+
+.prediction {
+  color: rgb(233, 55, 64);
+  font-family: Plus Jakarta Sans;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 36px;
+  letter-spacing: 0;
+  text-align: left;
+}
+
+.title {
+  color: rgb(28, 28, 28);
+  font-family: Plus Jakarta Sans;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 36px;
+  letter-spacing: 0;
+  text-align: left;
+}
+
+.created_by {
+  width: 100%;
+  border-top: 1px solid rgb(221, 221, 221);
+}
+
+.user-info {
+  margin: 20px 25px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.profile {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.profile_details {
+  padding-left: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.prediction_details {
+  padding-left: 15px;
+  margin: 15px 0 0 0;
+  width: 100%;
+}
+
+.description {
+  padding: 10px 0 10px 0;
+}

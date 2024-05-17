@@ -1,0 +1,26 @@
+<components>
+    <product>
+        <name>CPU</name>
+        <type>Processor</type>
+        <price>300.0</price>
+        <quantity>10</quantity>
+    </product>
+    <product>
+        <name>GPU</name>
+        <type>Graphics Card</type>
+        <price>500.0</price>
+        <quantity>5</quantity>
+    </product>
+    <product>
+        <name>Processor</name>
+        <type>Intel Core i7</type>
+        <price>250.0</price>
+        <quantity>7</quantity>
+    </product>
+    <product>
+        <name>RAM</name>
+        <type>HyperX 8 GB</type>
+        <price>370.0</price>
+        <quantity>15</quantity>
+    </product>
+</components>

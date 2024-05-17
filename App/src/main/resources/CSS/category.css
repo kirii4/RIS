@@ -1,0 +1,26 @@
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    padding-left: 40px;
+}
+
+h2 {
+    font-size: 18px;
+    margin-bottom: 15px;
+    padding-left: 80px;
+}
+
+p {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 10px;
+    line-height: 1.8;
+    padding-left: 120px;
+}
+
+ul {
+    font-size: 16px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    padding-left: 120px;
+}
